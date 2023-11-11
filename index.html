@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>📂Portfolio</title>
+</head>
+
+<body class="bg-light">
+    <!--Nav & main-->
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 p-0">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2" href="#">📂<span class="text-primary">P</span>ortfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto fs-5 text-center">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="#home"><span
+                                    class="text-primary">Home</span></a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown pe-3">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#design">Web Design</a></li>
+                                <li><a class="dropdown-item" href="#develop">Web Develop</a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" href="#myWork">My Work</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="row d-flex my-5 p-5 " id="home">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb-5  m-auto p-5" data-aos="fade-up" data-aos-offset="250">
+                <p class="fs-2">Full Stack Developer</p>
+                <h1>Hi, I'm <span class="text-primary">Rupesh Kawale</span><br> From India</h1>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6  text-center" data-aos="fade-down-right "
+                data-aos-offset="300">
+                <img src="./images/profile-pic.jpg" alt="profile-pic"
+                    class="img-fluid img-thumbnail rounded-circle w-50" />
+            </div>
+        </div>
+    </header>
+
+    <!--About Me-->
+
+    <main class="container my-5 ">
+
+        <section class="about my-5" id="about" data-aos="fade-down-right" data-aos-offset="200">
+            <div class="container text-center">
+                <div class="about">
+                    <h1>About <span class="text-primary">Me</span></h1>
+                    <hr class="w-25 m-auto" />
+                </div>
+            </div>
+        </section>
+
+        <div class="row p-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb-5 text-center" data-aos="flip-left" data-aos-offset="200">
+                <img src="./Images/profile-pic.jpg" alt="profile pic" class="img-fluid img-thumbnail w-75 rounded">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 right-about-box" data-aos="zoom-in-up" data-aos-offset="400">
+                <h1>What do you <span class="text-primary">want to know?</span></h1>
+                <p>
+                    Welcome to my portfolio! <b>I am Rupesh Kawale</b>. This portfolio showcases a selection of my
+                    work and
+                    experiences, highlighting my skills, achievements, and dedication to personal growth and
+                    professional development. I came from a <b>BE. Mechanical Engineering background</b>, combining my
+                    education &
+                    interests to create a unique skill set.
+                </p>
+                <div class="accordion accordion-flush" id="accordionFlushExample ">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" id="skills" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Skills
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body d-flex justify-content-between">
+
+                                <div>
+                                    <p class="text-primary fs-4">Web Designer</p>
+                                    <b>Frontend</b>
+                                    <ol>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Angular</li>
+                                        <li>Bootstrap</li>
+                                        <li>Git & Github</li>
+                                    </ol>
+                                </div>
+
+                                <div>
+                                    <p class="text-primary fs-4">Web Developer</p>
+                                    <b>Backend</b>
+                                    <ol>
+                                        <li>Java</li>
+                                        <li>JavaScript</li>
+                                        <li>Oracle</li>
+                                    </ol>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" id="experience" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Experience
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body d-flex justify-content-between">
+
+                                <div>
+                                    <p class="text-primary">Jan-21 - May-21</p>
+                                    <p>Internship<br>
+                                        at Rentmart It Services private Ltd.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <p class="text-primary">March 2022 - Present</p>
+                                    <p>
+                                        Project Engineer <br>
+                                        Wipro Limited
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" id="education" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Education
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body d-flex justify-content-between">
+
+                                <div>
+                                    <p class="text-primary">2014 - 2015</p>
+                                    <p>10 <sup>th</sup> from <br> Pawan Vidyalaya Pauni.</p>
+                                    <p>75.63%</p>
+                                </div>
+
+                                <div>
+                                    <p class="text-primary">2015 - 2016</p>
+                                    <p>12 <sup>th</sup> from <br>Muncipal jr college pauni.</p>
+                                    <p>63.86%</p>
+                                </div>
+
+                                <div>
+                                    <p class="text-primary">2019 - 2023</p>
+                                    <p>BE completed <br> from KDK college of engineering Nagpur.</p>
+                                    <p>76.7% , CGPA - 8.42</p>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!--My services-->
+    <div class="container my-5">
+        <section class="about my-5" data-aos="fade-down-right" data-aos-offset="200">
+            <div class="container text-center">
+                <div class="about">
+                    <h1>My <span class="text-primary">Services</span></h1>
+                    <hr class="w-25 m-auto" />
+                </div>
+            </div>
+        </section>
+
+        <div class="row service-card">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 my-3" data-aos="flip-down" data-aos-offset="200" id="design">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <i class="fa fa-users bg-primary p-2 text-white rounded m-1"></i>
+                        <h5 class="card-title">Web Design</h5>
+                        <p class="card-text">Web design refers to the design of websites that are displayed on the
+                            internet.
+                            It usually refers to the user experience aspects of website development rather than software
+                            development.</p>
+                        <a href="#skills" class="btn btn-primary">See More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 my-3" data-aos="fade-down-right" data-aos-offset="300"
+                id="develop">
+                <div class="card bg-primary service-card">
+                    <div class="card-body text-light">
+                        <i class="fa fa-code bg-white p-2 text-primary rounded m-1"></i>
+                        <h5 class="card-title">Web Develop</h5>
+                        <p class="card-text">Web development, also known as website development, refers to the tasks
+                            associated with creating,building, and maintaining websites and web applications that run
+                            online on a browser.</p>
+                        <a href="#experience" class="btn btn-light">See More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--MY Work-->
+    <div class="container my-5" id="myWork">
+        <section class="about my-5" data-aos="fade-down-right" data-aos-offset="200">
+            <div class="container text-center">
+                <div class="about">
+                    <h1>My <span class="text-primary">Work</span></h1>
+                    <hr class="w-25 m-auto" />
+                </div>
+            </div>
+        </section>
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 my-3" data-aos="flip-right" data-aos-offset="100">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <img src="./Images/plasma_donor_master.png" alt="roadtodairy" class="img-fluid img-thumbnail w-100">
+                        <h5 class="card-title ">Plasma Donor Master</h5>
+                        <p class="card-text">This site connects current COVID patients with recovered COVID patients who wish to donate plasma..</p>
+                        <a href="#" class="btn btn-primary me-5 rounded-circle p-2"> <i
+                                class="fa fa-link"></i> </a>
+                        <a href="https://github.com/kawalerupesh/plasma-donor-master" class="btn btn-primary ms-5"> <i
+                                class="fa fa-code"></i> </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 my-3" data-aos="flip-right" data-aos-offset="300">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <img src="./Images/portfolio.png" alt="portfolio" class="img-fluid img-thumbnail w-100">
+                        <h5 class="card-title ">Portfolio</h5>
+                        <p class="card-text">Welcome to my Portfolio its showcase about Mywork, Experience, Education.
+                            this purely made by HTML5, CSS3, JS & css library Bootstrap.</p>
+                        <a href="https://portfolio-mywork-app.netlfy.app/"
+                            class="btn btn-primary me-5 rounded-circle p-2"> <i class="fa fa-link"></i> </a>
+                        <a href="https://github.com/kawalerupesh" class="btn btn-primary ms-5"> <i
+                                class="fa fa-code"></i> </a>
+
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+    </div>
+
+    <!--Contact-->
+
+    <div class="container my-5" id="contact">
+        <section class="about my-5" data-aos="fade-down-right" data-aos-offset="200">
+            <div class="container text-center">
+                <div class="about">
+                    <h1>Connect <span class="text-primary">Me</span></h1>
+                    <hr class="w-25 m-auto" />
+                </div>
+            </div>
+        </section>
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 my-3 p-3" data-aos="zoom-in-down" data-aos-offset="200">
+                <p class="fs-5"><i class="fa-sharp fa-solid fa-paper-plane p-2 rounded bg-primary text-white"></i>
+                    kawalerupesh581@gmail.com
+                </p>
+                <p class="fs-5"><i class="fa-solid fa-square-phone p-2 rounded bg-primary text-white"></i> 9527897270
+                </p>
+                <form>
+                    <div class="my-5">
+                        <label for="exampleInputEmail1" class="form-label">MESSAGE</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Send me your valuable feedback</div>
+                    </div>
+                </form>
+
+                <div class="social-icons mt-5 text-center">
+                    <a href="https://github.com/kawalerupesh"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rupesh-kawale-73b944215"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_rupesh_kawale_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com//"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="./images/Rupesh_Kawale_CV.pdf" download><button class="btn btn-primary text-center my-4">
+                        Download Resume</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluild bg-primary text-center text-white fs-5 p-1">
+        <p class="m-auto">You Can Connect Me By <a href="https://www.linkedin.com/in/rupesh-kawale-73b944215"> <i
+                    class="fa-brands fa-linkedin  text-white"></i></a>
+
+        </p>
+    </div>
+
+
+    <div class="row">
+        <a href="#header" class="top-btn">
+            <i class="fa-sharp fa-solid fa-arrow-up text-primary p-2"></i>
+        </a>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/cf8e2afea6.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
